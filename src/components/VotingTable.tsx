@@ -45,7 +45,7 @@ const VotingTable = () => {
 
           <tbody>
             <tr>
-              <td>1.</td>
+              <td>&nbsp;</td>
               <td></td>
               <td></td>
 
@@ -61,7 +61,7 @@ const VotingTable = () => {
               </td>
             </tr>
             <tr className="">
-              <td>2.</td>
+              <td>&nbsp;</td>
 
               <td>
                 <div
@@ -108,7 +108,7 @@ const VotingTable = () => {
             {/* ------- EMPTY ROWS ------- */}
             {[3, 4, 5, 6, 7, 8, 9].map((num) => (
               <tr key={num}>
-                <td>{num}.</td>
+                <td>&nbsp;</td>
                 <td></td>
                 <td></td>
 

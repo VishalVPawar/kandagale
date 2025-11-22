@@ -22,7 +22,7 @@ const VotingTable = () => {
   return (
     <div className="container mt-2">
       <img
-        src="../../public/banner.jpg"
+        src="/banner.jpg"
         alt="banner"
         className="w-100 h-auto"
       />
@@ -69,7 +69,7 @@ const VotingTable = () => {
                   style={{ fontSize: "9px" }}
                   className="d-flex align-items-center ">
                   <img
-                    src="../../public/passport.png"
+                    src="/passport.png"
                     className="mx-1"
                     width="25"
                     height="25"

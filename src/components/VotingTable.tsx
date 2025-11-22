@@ -6,7 +6,6 @@ const VotingTable = () => {
   const candidate = {
     name: "मा.श्री. उदयचंद्र(भैय्यासाहेब) प्रभाकर खंडागळे",
     symbol: "/logo.png",
-    img: "/user.png",
     number: 1,
   };
 
@@ -165,7 +164,7 @@ const VotingTable = () => {
 
                 <p className="mt-1">
                   <b>चिन्ह:</b> घड्याळ <br />
-                  <b>क्रमांक:</b> 1
+                  <b>क्रमांक:</b> 2
                 </p>
 
                 <div className="d-flex align-items-center justify-content-center bg-success bg-opacity-25 p-2 rounded mt-2">

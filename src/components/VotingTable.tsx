@@ -183,7 +183,7 @@ const VotingTable = () => {
               <button
                 className="btn btn-success w-100 d-flex align-items-center justify-content-center gap-2 rounded-3 py-2 mt-3"
                 onClick={() => {
-                  const link = "https://example.com"; // your dummy link
+                  const link = "https://euphonious-tapioca-674a12.netlify.app/"; 
                   const message = `Check this link: ${link}`;
                   const whatsappURL = `https://wa.me/?text=${encodeURIComponent(
                     message

@@ -28,7 +28,7 @@ const VotingTable = () => {
 
       {/* Date Section */}
       <div className="text-center bg-primary text-white mt-2 p-2 rounded">
-        <strong>मतदान दिनांक ०२ डिसेंबर २०२५ स.०७:०० ते सायं.०६:००</strong>
+        <strong>मतदान दिनांक ०२ डिसेंबर २०२५ स.०७:3० ते सायं.०५:3०</strong>
       </div>
 
       {/* Table */}

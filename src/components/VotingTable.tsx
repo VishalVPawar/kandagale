@@ -44,7 +44,7 @@ const VotingTable = () => {
           </thead>
 
           <tbody>
-            <tr>
+            {/* <tr>
               <td>&nbsp;</td>
               <td></td>
               <td></td>
@@ -59,13 +59,13 @@ const VotingTable = () => {
 
                 <button className="btn btn-primary rounded-pill px-4 py-3 me-1"></button>
               </td>
-            </tr>
-            <tr className="">
-              <td>&nbsp;</td>
+            </tr> */}
+            <tr>
+              <td>1.</td>
 
               <td>
                 <div
-                  style={{ fontSize: "9px" }}
+                  style={{ fontSize: "12px" }}
                   className="d-flex align-items-center ">
                   <img
                     src="/passport.png"
@@ -73,7 +73,7 @@ const VotingTable = () => {
                     width="25"
                     height="25"
                   />
-                  <b> श्री.उदयचंद्र(भैय्यासाहेब)&nbsp;प्रभाकर&nbsp;खंडागळे</b>
+                  <b> उदयचंद्र उर्फ भैय्यासाहेब प्रभाकर खंडागळे</b>
                 </div>
               </td>
 
@@ -106,9 +106,9 @@ const VotingTable = () => {
             </tr>
 
             {/* ------- EMPTY ROWS ------- */}
-            {[3, 4, 5, 6, 7, 8, 9].map((num) => (
+            {[2, 3, 4, 5, 6, 7, 8, 9].map((num) => (
               <tr key={num}>
-                <td>&nbsp;</td>
+                <td>{num}.</td>
                 <td></td>
                 <td></td>
 
